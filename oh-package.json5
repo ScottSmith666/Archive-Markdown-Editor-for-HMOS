@@ -1,0 +1,13 @@
+{
+  "modelVersion": "5.0.0",
+  "license": "",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "author": "",
+  "name": "archive_markdown_editor_for_hmos",
+  "description": "A simple, beautiful, and powerful Markdown editor.",
+  "main": "",
+  "version": "1.0.7",
+  "dependencies": {}
+}

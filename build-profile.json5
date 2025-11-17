@@ -1,0 +1,60 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "compatibleSdkVersionStage": "release",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "nativeLib": {
+            "collectAllLibs": true
+          }
+        },
+        "targetSdkVersion": "6.0.0(20)"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/scottsmith/.ohos/config/default_archive_markdown_editor_for_hmos_bzx5jOCsB6hrlO_l3y3Vpp95Lxsk880TUD9Ew76Q0Uk=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B38F8CA25148BFE2E79079D891C05469A9D65D882057EA5B2850E20AB9F16DDF3974C7D0B218636",
+          "profile": "/Users/scottsmith/.ohos/config/default_archive_markdown_editor_for_hmos_bzx5jOCsB6hrlO_l3y3Vpp95Lxsk880TUD9Ew76Q0Uk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/scottsmith/.ohos/config/default_archive_markdown_editor_for_hmos_bzx5jOCsB6hrlO_l3y3Vpp95Lxsk880TUD9Ew76Q0Uk=.p12",
+          "storePassword": "0000001BAA5FA2BD6AA13FBC2A5E4E98563C5509DF8D8F374C94E9290BB2AB6F51B8F5F4A22C24CD327FC7"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "electron",
+      "srcPath": "./electron",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "web_engine",
+      "srcPath": "./web_engine"
+    }
+  ]
+}
